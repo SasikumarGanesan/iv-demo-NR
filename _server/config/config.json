@@ -1,0 +1,17 @@
+{
+    "development": {
+        "PORT": 5001,
+        "HOST": "0.0.0.0",
+        "MONGODB_URI": "",
+        "JWT_SECRET": "",
+        "JWT_EXP": "2m"
+    },
+    "production": {
+        "PORT": 80,
+        "HOST": "",
+        "MONGODB_URI": "",
+        "JWT_SECRET": "",
+        "JWT_EXP": "2m"
+    }
+}
+

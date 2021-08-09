@@ -1,0 +1,50 @@
+.wrapper{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+
+
+    #form--container{
+        min-height: 10%;
+        
+        .form{
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+
+            .form-control-sm{
+                border: 1px solid #65dfc9;
+                border-radius: .2rem;
+                border-top-left-radius: 0.2rem;
+                border-top-right-radius: 0.2rem;
+                border-bottom-right-radius: 0.2rem;
+                border-bottom-left-radius: 0.2rem;
+            }
+        }
+    }
+
+    #table--container{
+        // min-height:  40%;
+        // height: 70vh;
+        
+      table {
+            color: #426696;
+            font-weight: 600;
+            opacity: 0.8;
+
+            th, td{
+                text-align: center;
+
+                .m-right{
+                    margin-right: 0.3rem;
+                }
+            }
+      }
+    }
+
+
+}
